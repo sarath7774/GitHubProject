@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!-- Login -->
+   <parameter name="username" value="Sarath7774"></parameter>
+   <parameter name="password" value="Sarath7774"></parameter>
+   <!-- Search -->
+   <parameter name="location" value="Melbourne"></parameter>
+   <parameter name="hotels" value="Hotel Creek"></parameter>
+   <parameter name="room_type" value="Double"></parameter>
+   <parameter name="room_nos" value="5"></parameter>
+   <parameter name="adult_room" value="2"></parameter>
+   <parameter name="child_room" value="2"></parameter>
+      <!-- Details -->
+   <parameter name="first_name" value="Sarath"></parameter>
+   <parameter name="last_name" value="Kumar"></parameter>
+   <parameter name="address" value="Adyar IndraNagar"></parameter>
+   <parameter name="cc_num" value="9876543211234567"></parameter>
+   <parameter name="cc_type" value="American Express"></parameter>
+   <parameter name="cc_exp_month" value="February"></parameter>
+   <parameter name="cc_exp_year" value="2021"></parameter>
+   <parameter name="cc_cvv" value="1234"></parameter>
+    <classes>
+      <class name="org.tst.excel.Booking"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

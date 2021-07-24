@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33142" started-at="2021-07-23T15:50:14Z" finished-at="2021-07-23T15:50:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33142" started-at="2021-07-23T15:50:14Z" finished-at="2021-07-23T15:50:47Z">
+      <class name="org.tst.excel.Booking">
+        <test-method status="FAIL" signature="bookinginfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.tst.excel.Booking@343f4d3d]" name="bookinginfo" duration-ms="33078" started-at="2021-07-23T15:50:14Z" finished-at="2021-07-23T15:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sarath7774]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sarath7774]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Sarath]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Adyar IndraNagar]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[9876543211234567]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.tst.excel.BookingLastPOM.bookingLast(BookingLastPOM.java:20)
+at org.tst.excel.Booking.bookinginfo(Booking.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookinginfo -->
+      </class> <!-- org.tst.excel.Booking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

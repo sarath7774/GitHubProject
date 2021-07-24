@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="address" value="Adyar IndraNagar"/>
+    <parameter name="cc_exp_month" value="February"/>
+    <parameter name="cc_num" value="9876543211234567"/>
+    <parameter name="last_name" value="Kumar"/>
+    <parameter name="cc_cvv" value="1234"/>
+    <parameter name="cc_exp_year" value="2021"/>
+    <parameter name="cc_type" value="American Express"/>
+    <parameter name="password" value="Sarath7774"/>
+    <parameter name="hotels" value="Hotel Creek"/>
+    <parameter name="location" value="Melbourne"/>
+    <parameter name="child_room" value="2"/>
+    <parameter name="adult_room" value="2"/>
+    <parameter name="first_name" value="Sarath"/>
+    <parameter name="room_nos" value="5"/>
+    <parameter name="username" value="Sarath7774"/>
+    <parameter name="room_type" value="Double"/>
+    <classes>
+      <class name="org.tst.excel.Booking">
+        <methods>
+          <include name="bookinginfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.tst.excel.Booking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -49,6 +49,14 @@ public class ExcelWrite {
 		Select a = new Select(e);
 		a.selectByValue(s);
 	}
+	public void selectAction1(WebElement e,String s) {
+		Select a = new Select(e);
+		a.selectByValue(s);
+	}
+	public void getAttr2(WebElement e) {
+		 attribute = e.getAttribute("value");
+		System.out.println(attribute);
+	}
 	
 	public void getAttr(WebElement e) {
 		 attribute = e.getAttribute("value");

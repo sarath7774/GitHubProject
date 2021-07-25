@@ -39,6 +39,12 @@ public class ExcelWrite {
 
 	public String sendText(WebElement e, String s) {
 		e.sendKeys(s);
+		System.out.println(s);
+		System.out.println(s);
+		System.out.println(s);
+		System.out.println(s);
+		System.out.println(s);
+		
 		return s;
 	}
 	public void ClickAction(WebElement e) {

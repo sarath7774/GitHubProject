@@ -39,6 +39,13 @@ public class ExcelWrite {
 
 	public String sendText(WebElement e, String s) {
 		e.sendKeys(s);
+		//dfghjk
+		//xcv
+		//dfguio
+		return s;
+	}
+	public String sendText2(WebElement e, String s) {
+		e.sendKeys(s);
 		return s;
 	}
 	public void ClickAction(WebElement e) {
@@ -52,6 +59,8 @@ public class ExcelWrite {
 	public void selectAction1(WebElement e,String s) {
 		Select a = new Select(e);
 		a.selectByValue(s);
+		//c
+		//dfghjk
 	}
 	public void getAttr2(WebElement e) {
 		 attribute = e.getAttribute("value");
